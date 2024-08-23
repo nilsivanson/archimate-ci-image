@@ -6,7 +6,7 @@ branding:
   color: blue
 runs:
   using: docker
-  image: docker://ghcr.io/nilsivanson/archimate-ci-image:latest
+  image: docker://ghcr.io/nilsivanson/archimate-ci-image:master
   env:
     GITHUB_TOKEN: ${{ inputs.githubToken }}
     ARCHI_HTML_REPORT_ENABLED: ${{ inputs.archiHtmlReportEnabled }}
